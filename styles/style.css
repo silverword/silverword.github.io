@@ -49,12 +49,12 @@ html, div, header, footer, hr{
 
 .link{
   text-decoration: none;
-  color: black;
+  fill: black;
   float: right;
 }
 
 .link:hover{
-  color: #ffd2b4;
+  fill: #ffd2b4;
 }
 
 .logo {
