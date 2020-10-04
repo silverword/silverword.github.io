@@ -32,8 +32,8 @@ html, div, header, footer, hr{
 
 #mainNav {
   width:100%;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 7px;
 }
 
 .navigation a{
@@ -46,7 +46,9 @@ html, div, header, footer, hr{
 }
 
 .navigation a:hover{
+  transition: color 200ms ease-in-out;
   color: #ffd2b4;
+
 }
 
 .link{
@@ -56,6 +58,7 @@ html, div, header, footer, hr{
 }
 
 .link:hover{
+  transition: fill 200ms ease-in-out;
   fill: #ffd2b4;
 }
 
