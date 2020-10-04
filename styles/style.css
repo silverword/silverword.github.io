@@ -1,6 +1,6 @@
 .content p, .navigation a{
   color: black;
-  font-family: 'LEMON MILK', sans-serif;
+  font-family: 'Mitr', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 15px;
@@ -13,14 +13,14 @@ body{
 }
 
 #container{
-  max-width: 1200px;
+  max-width: 1050px;
   margin: 0px auto;
   padding: 20px 50px 10px 50px;
   min-height: 800px;
 }
 
 .contentText{
-  width: 25%;
+  width: 33%;
   margin: auto;
   padding: 15px 20px 15px 20px;
   color: gray;
@@ -37,10 +37,12 @@ html, div, header, footer, hr{
 }
 
 .navigation a{
+  font-family: 'LEMON MILK', sans-serif;
   text-decoration: none;
   color:black;
   margin-right: 10px;
-  font-size: 17px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .navigation a:hover{
