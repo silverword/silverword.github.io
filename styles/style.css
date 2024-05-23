@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: futura-pt;
+  src: url(C:\Users\silverword\Documents\silverword.github.io\silverword.github.io-master\fonts\future-pt\FuturaCyrillicMedium.ttf);
+}
+
+.content p, .navigation a{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.8em;
+  letter-spacing: .7px;
+  word-spacing: 3px;
+}
+
+body{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main{
+  opacity:0;
+  display: none;
+  transition: opacity 1s ease-in;
+  width: 90%;
+}
+
+#container{
+  max-width: 1050px;
+  margin: 0px auto;
+  padding: 20px 50px 10px 50px;
+  min-height: 800px;
+  text-align: center;
+}
+
+.contentText{
+  width: 33%;
+  margin: auto;
+  padding: 15px 20px 15px 20px;
+  color: gray;
+  text-align: left;
+}
+
+#mainNav {
+  width:100%;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.navigation a{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color:black;
+  margin-right: 20px;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.navigation a:hover{
+  transition: color 200ms ease-in-out;
+  color: #ffd2b4;
+
+}
+
+.link{
+  text-decoration: none;
+  fill: black;
+  float: right;
+}
+
+.link:hover{
+  transition: fill 200ms ease-in-out;
+  fill: #ffd2b4;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 20px;
+}
+
+.aboutPic{
+  /* display: block; */
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.photo{
+  margin: 0px auto;
+  float: left;
+  width: 33.33%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+}
+
+.pictureGroup{
+  text-align: center;
+  width: 100%;
+}
+
+.pictureGroup::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.singlePhoto{
+  /* display: block; */
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.email{
+  padding-top: 250px;
+  padding-bottom: 250px;
+  margin: 0 auto;
+  width: 25%;
+}
+
+hr{
+  /* display: block; */
+  box-sizing: content-box;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border: none;
+  color: #bbb;
+  background-color: #bbb;
+  height: 1px
+}
+
+footer{
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
